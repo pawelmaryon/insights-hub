@@ -1,0 +1,41 @@
+.primary-text {
+  color: $green;
+}
+
+.secondary-text {
+
+}
+
+/* Button */
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: $light-gray;
+  background: $green;
+  border: none;
+  border-radius: 7px;
+  &:hover {
+    opacity: 0.9;
+
+  }
+}
+
+.btn- main {
+  background: $green;
+  color: $light-gray;
+}
+
+.btn-sec {
+  background: $blue;
+  color: $light-gray;
+}
+.btn-dark {
+  background: $gray;
+  color: $light-gray;
+}
+.btn-light {
+  background: $light-gray;
+  color: $gray;
+}
