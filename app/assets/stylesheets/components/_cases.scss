@@ -1,0 +1,10 @@
+.cases {
+  .column {
+    img {
+      padding-bottom: 8px;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
