@@ -2,9 +2,6 @@
   color: $green;
 }
 
-.secondary-text {
-
-}
 
 /* Button */
 
@@ -38,4 +35,37 @@
 .btn-light {
   background: $light-gray;
   color: $gray;
+}
+
+/*Flex items*/
+
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+/* Flex Columns*/
+
+.flex-columns {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    .column-1, .column-2 {
+      height: 100%;
+    }
+  }
 }
